@@ -1,0 +1,87 @@
+body
+{
+  background-image: url('src/assets/mainbg.jpg'); 
+  background-color: #ffdde1;
+  background-size: cover; 
+}
+
+
+div
+{
+  display: grid;
+  justify-content: center; 
+  align-items: center; 
+  height: 15vh; 
+  margin-bottom:1px;
+}
+
+.buttons-div
+{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 15vh; 
+  margin-top:-5px;
+}
+
+button 
+{
+  border-radius:20px;
+  padding:10px;
+  font-size: 20px;
+  font-family: Calistoga;
+  background-color: #74342b;
+  text-align: center;
+  color: #ffdde1;
+  margin:10px;
+}
+
+button:hover 
+{
+  opacity: 0.2; 
+}
+
+input
+{
+  border-radius:20px;
+  padding:10px;
+  font-size: 16px;
+  font-family: Calistoga;
+  background-color:#ffdde1;
+  text-align: center;
+  color: #74342b;
+  margin:5px;
+}
+
+
+h1
+{
+  color:#74342b;
+  font-size: 60px;
+  font-family: Calistoga;
+  text-align: center;
+  margin-bottom: 3px;
+  /**background-color: #ffdde1;
+  border-radius:70px;
+  padding:20px;**/
+}
+
+h2
+{
+  color:#74342b;
+  font-size: 30px;
+  font-family: Calistoga;
+  text-align: center;
+  margin:2px;
+}
+
+p
+{
+  color:#74342b;
+  font-size: 20px;
+  font-family: Calistoga;
+  text-align: center;
+  border-radius: 20px;
+  margin: 2px;
+}
+
